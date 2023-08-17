@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.26.3)
+
+set(P_NAME Timer)
+project(${P_NAME})
+
+add_executable(${P_NAME} src/main.cpp)
